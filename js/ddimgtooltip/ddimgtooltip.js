@@ -7,101 +7,77 @@
 var ddimgtooltip = {
   tiparray: (function () {
     var tooltips = []
-    //define each tooltip below: tooltip[inc]=['path_to_image', 'optional desc', optional_CSS_object]
+	//define the width of the tooltip-boxes
+	let box_w = "405px"
+    
+	//define each tooltip below: tooltip[inc]=['path_to_image', 'optional desc', optional_CSS_object]
     //For desc parameter, backslash any special characters inside your text such as apotrophes ('). Example: "I\'m the king of the world"
     //For CSS object, follow the syntax: {property1:"cssvalue1", property2:"cssvalue2", etc}
 
-    tooltips[1] = [ "images/01_Dr. Francesco Santini.jpg",
-      " Super Dr. Francesco Santini, wissenschaftlicher Mitarbeiter der radio-<br>logischen Physik, wurde Vizepräsident der Reproducible Research<br>Study Group der International Society for Magnetic Resonance in<br>Medicine (ISMRM) und Co-Vorsitzender des Organisationskomitees<br>für den Workshop MRI Together der European Society for Magnetic<br>Resonance in Medicine and Biology (ESMRMB)."
-      ,{ background: "white", opacity: 0.98 }]
+    tooltips[1] = [ "images/01_8_November.jpg",
+      "8. November 1895:<br>Der Physiker Wilhelm Conrad Röntgen entdeckt die<br>Röntgenstrahlen.<br>Am Jahrestag wird weltweit der «International Day of<br>Radiology» gefeiert, dies auf Initiative der amerika-<br>nischen und europäischen Gesellschaft für Radiologie."
+      ,{ background: "white", opacity: 0.98, width:box_w}]
 
-    tooltips[2] = [ "images/02_Vosshenrich.jpg",
-      "Für seine Arbeit zur Auswirkung der Ermüdung von Radiologinnen<br>und Radiologen aufgrund zunehmender Arbeitsbelastung<br>hat Dr. Jan Vosshenrich, Assistenzarzt der Radiologie, den Young<br>Investigator Award der Schweizerischen Gesellschaft für Radiologie<br>(SGR-SSR) erhalten.<br>Die Arbeit, die auch Empfehlungen zur Erhaltung der diagnostischen<br>Genauigkeit umfasst, wurde in Radiology publiziert und zeitnah<br>von der Radiological Society of North America (RSNA) rezipiert."
-      ,{ background: "white", opacity: 0.98 }]
+    tooltips[2] = [ "images/02_Was ist Radiologie.jpg",
+      "Was ist Radiologie?<br>Das medizinische Fachgebiet setzt zahlreiche tech-<br>nische Verfahren ein, um medizinische Bilder zu dia-<br>gnostischen, therapeutischen und wissenschaftlichen<br>Zwecken zu gewinnen.<br>Die meisten Verfahren werden als bildgebend oder<br>bildgesteuert bezeichnet."
+      ,{ background: "white", opacity: 0.98, width:box_w}]
 
-    tooltips[3] = [ "images/03_Anfang Oktober.jpg",
-      "Anfang Oktober konnte die Nuklearmedizin das zweite PET/CT (Posi-<br>tronen-Emissions-Tomografie/Computertomografie)-Gerät in Betrieb<br>nehmen.<br>Damit wurde die zeitnahe Verfügbarkeit von PET/CT-Untersuchungen<br>deutlich verbessert."
-      ,{ background: "white", opacity: 0.98 }]
+    tooltips[3] = [ "images/03 Warum schmunzeln.jpg",
+      "Warum schmunzeln Radiolog*innen wenn Dr. House<br>ein einzelnes MRT-Bild betrachtet?<br>Pro Computer- oder Magnetresonanztomografie<br>müssen 300–5‘000 Einzelbilder ausgewertet werden.<br>Radiolog*innen ‘scrollen’ durch die Bildserien,<br>betrachten sie aus verschiedenen Ebenen – urteilen<br>aufgrund umfangreicher Bilddaten."
+      ,{ background: "white", opacity: 0.98, width:box_w}]
 
-    tooltips[4] = [ "images/04_IRZech.jpg",
-      "Prof. Christoph Zech, Leiter der interventionellen Radiologie,<br>ist für 2021–23 als Mitglied im Executive Committee der<br>European Society of Gastrointestinal and Abdominal Radiology<br>(ESGAR) bestätigt worden.<br>Er übernimmt neu das Amt des Education Committee Chairs."
-      ,{ background: "white", opacity: 0.98 }]
+    tooltips[4] = [ "images/04 Röhre oder Ring.jpg",
+      "Röhre oder Ring?<br>Unsere Patient*innen sprechen oft von der «Röhre» und meinen damit den Computer- und den Magnetresonanztomografen (CT und MRT/MRI). Das MRT-Gerät ist röhrenförmig. Die «Röhre» des CT-Geräts ist jedoch nur ein schmaler Ring. Ähnlich breit sind die Untersuchungsliegen beider Geräte: 80–100 cm bei der CT, 60–80 cm bei der MRT – mindestens so breit wie eine Luftmatratze."
+      ,{ background: "white", opacity: 0.98, width:box_w}]
 
-    tooltips[5] = [ "images/05_Die Nuklearmedizin.jpg",
-      "Die Nuklearmedizin hat als Hauptantragsteller kompetitive Projekt-<br>fördermittel von der Universität Basel (Dr. Federico Caobelli),<br>der regionalen Krebsliga beider Basel (Dr. Alin Chirindel) und vom<br>Schweizerischen Nationalfonds (SNF) (Prof. Damian Wild) von<br>rund CHF 1’000’000 erhalten."
-      ,{ background: "white", opacity: 0.98 }]
+    tooltips[5] = [ "images/05 Was ist Nuklearmedizin.jpg",
+      "Was ist Nuklearmedizin?<br>Nuklearmedizinische Untersuchungen machen<br>Körperfunktionen sichtbar. Dazu werden geeignete<br>radioaktive Substanzen eingesetzt, die bestimmte<br>Stoffwechselprozesse hervorheben.<br>Bei nuklearmedizinischen Therapien werden radio-<br>aktive Substanzen verabreicht, die sich gezielt<br>in kranken Zellen (auf dem Bild z. B. Schilddrüsen-<br>metastasen) anreichern und diese durch die Strah-<br>lung zerstören."
+      ,{ background: "white", opacity: 0.98, width:box_w}]
 
-    tooltips[6] = [ "images/06_PD Peter Sporns.jpg",
-      "PD Peter Sporns, Oberarzt der Neuroradiologie, hat mit einem<br>Expertenteam aus Kanada und den USA einen Übersichtsartikel<br>zum pädiatrischen ischämischen Schlaganfall erarbeitet und in<br>The Lancet Child & Adolescent Health publiziert."
-      ,{ background: "white", opacity: 0.98 }]
+    tooltips[6] = [ "images/06_Rund 70 Dozentinnen.jpg",
+      "Rund 70 Dozent*innen unterrichten ca. 1200 Medizin-<br>studierende in 6 Studienjahren.<br>Wir sind jedoch nicht nur in die Ausbildung von<br>Ärzt*innen, sondern auch von Radiologiefachpersonen,<br>Physiker*innen, Biolog*innen, Chemiker*innen sowie<br>anderen Fachleuten involviert, betreuen Studierende,<br>Unterassistent*innen, Diplomand*innen und Dokto-<br>rierende.<br>Als Aus-, Weiter- und Fortbildungseinrichtung ver-<br>mitteln wir ihnen medizinisches, technisches und natur-<br>wissenschaftliches Wissen."
+      ,{ background: "white", opacity: 0.98, width:box_w}]
 
-    tooltips[7] = [ "images/07_Nuk.jpg",
-      "Obwohl wir die 177Lu-PSMA Therapie erst seit Mai 2020 anbieten,<br>hat die Nuklearmedizin in Zusammenarbeit mit der radiopharma-<br>zeutischen Chemie bereits 217 solcher Therapien bei Patienten mit<br>metastasiertem, kastrationsresistentem Prostata-Karzinom<br>durchgeführt (bis Ende Oktober 2021).<br>Zur Auswertung der Therapiedaten hat sie ein nationales Register für<br>diese Therapie eingeführt."
-      ,{ background: "white", opacity: 0.98 }]
+    tooltips[7] = [ "images/07_Dank der Radiologie.jpg",
+      "Dank der Radiologie wird Anatomie zum Greifen nah:<br>Das 3D Print Lab – ein interdisziplinäres Team<br>aus Chirurg*innen und Radiolog*innen –<br>stellt anhand medizinischer Bilddaten anatomisch<br>präzise, mehrfarbige, sterilisierbare 3D-Modelle<br>sowie Implantate her.<br>Sie werden eingesetzt für Operationsplanung,<br>Patient*innenaufklärung und Lehre.<br>2021 haben wir 1200 solch höchst individuelle Modelle<br>angefertigt."
+      ,{ background: "white", opacity: 0.98, width:box_w}]
 
-    tooltips[8] = [ "images/08_Die European Association .jpg",
-      "Die European Association of Nuclear Medicine (EANM) hat nach einem<br>multidisziplinären Delphi-Verfahren, an dem 31 international aner-<br>kannte Experten beteiligt waren, einen Konsens zu neuroendokrinen<br>Neoplasmen erzielt.<br>Beteiligt waren Prof. Melpomeni Fani (radiopharmazeutische Chemie)<br>und Prof. Damian Wild (Nuklearmedizin)."
-      ,{ background: "white", opacity: 0.98 }]
+    tooltips[8] = [ "images/08_400 Terabyte.jpg",
+      "400 Terabyte:<br>Unser Bildarchivierungs- und Informationssystem<br>ist so umfangreich wie 200‘000 Stunden Video<br>in Fernsehqualität."
+      ,{ background: "white", opacity: 0.98, width:box_w}]
 
-    tooltips[9] = [ "images/09_Die 2019 eingeführte.jpg",
-      "Die 2019 eingeführte Behandlung von Schilddrüsenknoten mittels<br>Radiofrequenzablation hat sich etabliert.<br>Sie wird von unseren Patienten ausnahmslos als eine sehr wenig<br>belastende Methode wahrgenommen – mit sehr gutem Behandlungs-<br>erfolg und unter Erhalt der Schilddrüsenfunktion."
-      ,{ background: "white", opacity: 0.98 }]
+    tooltips[9] = [ "images/09_Radiologische Bilder.jpg",
+      "Radiologische Bilder zeigen manchmal Überraschen-<br>des. Die Darstellung des Absaugsystems eines<br>speziellen Verbands in der Computertomografie<br>führte bei den Radiolog*innen der muskuloskelettalen<br>Diagnostik zu beispielloser Erheiterung."
+      ,{ background: "white", opacity: 0.98, width:box_w}]
 
-    tooltips[10] = [ "images/10_Das Team um.jpg",
-      "Das Team um Dr. Orso Pusterla, wissenschaftlicher Mitarbeiter der<br>radiologischen Physik, wurde am Kongress der European Society for<br>Magnetic Resonance in Medicine and Biology (ESMRMB) mit einem<br>Magna-Cum-Laude-Preis für den besten Abstract (für die besten 1%)<br>ausgezeichnet.<br>Er hat eine neue, von einem neuronalen Netzwerk gesteuerte<br>Methode zur 3D-Quantifizierung der Lungenventilation anhand von<br>0,55 T-MRT-Aufnahmen bei freier Atmung vorgestellt. "
-      ,{ background: "white", opacity: 0.98 }]
+    tooltips[10] = [ "images/10 Wozu braucht die.jpg",
+      "Wozu braucht die Radiologie ein Labor für radioaktive Substanzen?<br>Die in der nuklearmedizinischen Diagnostik und Thera-<br>pie eingesetzten Substanzen (Radiopharmazeutika)<br>werden spezifisch für unsere Patient*innen hergestellt.<br>Zu diesem Zweck gibt es am Unispital ein spezielles<br>Labor der radiopharmazeutischen Chemie."
+      ,{ background: "white", opacity: 0.98, width:box_w}]
 
-    tooltips[11] = [ "images/11_Für jährlich.jpg",
-      "Für jährlich rund 6000 CT-Untersuchungen des Thorax hat unser<br>Forschungsteam einen Open-Source-Algorithmus entwickelt,<br>der automatisch Infiltrate und Pleuraergüsse quantifiziert und charakterisiert.<br>Die Ergebnisse sind direkt im PACS (Bildarchivierungs- und Kommuni-<br>kationssystem der Radiologie) als Lung-Report verfügbar."
-      ,{ background: "white", opacity: 0.98 }]
+    tooltips[11] = [ "images/11_In einem Röntgenbild.jpg",
+      "In einem Röntgenbild unserer muskuloskelettalen Dia-<br>gnostik zeigten sich charmant geformte Edelstahl-<br>drähte.<br>Sie dienen der Fixierung von Knochenfragmenten."
+      ,{ background: "white", opacity: 0.98, width:box_w}]
 
-    tooltips[12] = [ "images/12_Roya Afshari.jpg",
-      "Roya Afshari, Doktorandin der radiologischen Physik, und ihre wissen-<br>schaftlichen Kollegen wurden am Kongress der International Society<br>for Magnetic Resonance in Medicine (ISMRM) mit einem Magna-Cum-<br>Laude-Preis für ihr Poster zur qMT-Bildgebung (quantitativer Magneti-<br>sierungstransfer) des gesamten Hirns in weniger als 5 Minuten geehrt.<br>Die Arbeit eröffnet sehr gute Aussichten für die klinische Anwendung<br>der qMT-Bildgebung in der neurologischen Diagnostik."
-      ,{ background: "white", opacity: 0.98 }]
+    tooltips[12] = [ "images/13_Fast wie ein Abendstern.jpg",
+      "Fast wie ein Abendstern sah der Blasenstein aus,<br>den die Radiolog*innen der abdominellen Diagnostik<br>in der Computertomografie entdeckten."
+      ,{ background: "white", opacity: 0.98, width:box_w}]
 
-    tooltips[13] = [ "images/13_Erfolgreiche GMP.jpg",
-      "Erfolgreiche GMP-Inspektion: Nach dreijähriger Betriebszeit des GMP-<br>Labors (Good Manufacturing Practice) wurde die periodische pharma-<br>zeutische Inspektion durch das regionale Heilmittelinspektorat durch-<br>geführt – mit erfolgreichem Verlauf und Verlängerung der Betriebs-<br>bewilligung."
-      ,{ background: "white", opacity: 0.98 }]
+    tooltips[13] = [ "images/15 Die Energiekrise.jpg",
+      "Die Energiekrise wird auch für die Radiologie spürbar<br>sein; die Geräte laufen nicht von allein.<br>26 Familien (à 4 Personen) brauchen so viel Strom<br>wie 1 Magnetresonanztomograf."
+      ,{ background: "white", opacity: 0.98, width:box_w}]
 
-    tooltips[14] = [ "images/14_Der Preis für.jpg",
-      "Der Preis für die beste Diplomarbeit der diplomierten Radiologie-<br>fachpersonen HF ging an unseren Absolventen Thomas Stocker.<br>Er erhielt ihn vom Bildungszentrum Gesundheit Basel-Stadt (BZG)<br>für seine Arbeit «Spätfolgen der pädiatrischen Radiotherapie»."
-      ,{ background: "white", opacity: 0.98 }]
+    tooltips[14] = [ "images/16_12 mm.jpg",
+      "1,2 mm beträgt der winzige Durchmesser eines<br>Gefässzugangs der interventionellen Radiologie.<br>Sie ist spezialisiert auf die Diagnostik und Therapie<br>von Gefässkrankheiten, Entzündungen, Tumoren und<br>Schmerzen.<br>Mithilfe kleinster Instrumente werden deren Ursachen<br>gezielt und möglichst schonend behandelt. Die Be-<br>handlung wird daher als minimalinvasive Therapie<br>bezeichnet. Auf diesen Angiografie-Bildern sieht man<br>die hintere Gehirnarterie: vor (links) und nach (rechts)<br>der Entfernung eines Gerinnsels."
+      ,{ background: "white", opacity: 0.98, width:box_w}]
 
-    tooltips[15] = [ "images/15_Winkel.jpg",
-      "Wir konnten zeigen, dass die vollautomatische Bewertung von<br>Koronararterienkalk mit einem auf Deep Learning basierenden<br>Algorithmus möglich ist – gesamthaft und gefässspezifisch.<br>Die Ergebnisse des Forschungsteams um Dr. David Winkel, Fellow<br>der kardiothorakalen Radiologie, konnten im European Heart Journal<br>publiziert werden."
-      ,{ background: "white", opacity: 0.98 }]
+    tooltips[15] = [ "images/17-LungenbildgebungMRT.gif",
+      "Eine unserer acht Abteilungen beschäftigt sich<br>mit radiologischer Physik. Die forschungsorientierte<br>Abteilung entwickelt neue Magnetresonanzverfahren<br>zur Verbesserung der Bildgebung verschiedener<br>Organe, etwa der Lungen.<br>Zudem arbeiten die Strahlenphysiker, welche für die<br>Einhaltung und Optimierung des Strahlenschutzes<br>am Unispital zuständig sind, in der radiologischen<br>Physik."
+      ,{ background: "white", opacity: 0.98, width:box_w}]
 
-    tooltips[16] = [ "images/16_Der Kongress der.jpg",
-      "Der Kongress der Schweizerischen Gesellschaft für Senologie<br>für Mamma-Radiologen, Senologen, Brustchirurgen und Gynäkologen<br>wurde dieses Jahr von Dr. Sophie Dellas mitorganisiert. Das Team der<br>Mammadiagnostik war mit Vorträgen und Kursen beteiligt.<br><br>Dr. Noemi Schmidt hat die Leitung der Mammadiagnostik von<br>Dr. Sophie Dellas übernommen. Sophie Dellas tritt nicht ganz in den<br>Ruhestand; sie bleibt dem USB als Senior Consultant erhalten."
-      ,{ background: "white", opacity: 0.98 }]
-
-    tooltips[17] = [ "images/17_Als eine der ersten.jpg",
-      "Als zweite Klinik weltweit haben wir einen Magnetresonanztomo-<br>grafen mit einer Feldstärke von 0.55 Tesla (Magnetom Free.Max<br>von Siemens Healthineers) installiert.<br>Das ungewöhnliche Gerät bietet Vorteile wie den geringen Helium-<br>bedarf und den einfachen Einbau. Der Tomograf, der einen weiten<br>Durchmesser (80 cm) aufweist, wird vor allem für Patientinnen und<br>Patienten mit Metallimplantaten, für die Diagnostik der Wirbelsäule,<br>für die (experimentelle) Lungenbildgebung und für Patienten mit<br>Platzangst eingesetzt."
-      ,{ background: "white", opacity: 0.98 }]
-
-    tooltips[18] = [ "images/18_Kolakovic.jpg",
-      "Bei der diesjährigen Posterpräsentation des Bildungszentrums<br>Gesundheit Basel-Stadt (BZG) erhielt unsere Studentin Menusha<br>Pathmakanthan den ersten Preis für ihr Poster «Die Lungen-<br>sonographie als Alternative zur Computertomographie bei Covid-19-<br>infizierten Patientinnen und Patienten»."
-      ,{ background: "white", opacity: 0.98 }]
-
-    tooltips[19] = [ "images/19_Wir erweitern.jpg",
-      "Wir erweitern unsere Ansätze in der präklinischen Forschung<br>und schaffen gemeinsame Doktorandenstellen mit dem Swiss<br>Nanoscience Institute (SNI) der Universität Basel.<br>Das neue Programm erforscht innovative katalytische Strategien<br>zur Krebsbekämpfung."
-      ,{ background: "white", opacity: 0.98 }]
-
-    tooltips[20] = [ "images/20_Alle fünf.jpg",
-      "Alle fünf Studierenden des Bildungsgangs 2018–21 haben ihre<br>Ausbildung zur diplomierten Radiologiefachperson HF erfolgreich<br>abgeschlossen – vier Absolventinnen und Absolventen bleiben<br>unserem Team erhalten."
-      ,{ background: "white", opacity: 0.98 }]
-
-    tooltips[21] = [ "images/21_Das in Radiology.jpeg",
-      "Das in Radiology publizierte Bild zur Arbeit «Radiologist Mouse Move-<br>ments at a PACS Workstation» unserer Assistenzärzte Dr. Jan Voss-<br>henrich und Dr. Hanns-Christian Breit wurde als einer von drei<br>Finalisten für den Top Images in Radiology Award ausgewählt.<br>Für die Arbeit zum Workload von Radiologen wurden die Maus-<br>bewegungen eines Assistenzarztes auf Bildschirmen des Bildarchivie-<br>rungs- und Kommunikationssystems während einer 8-Stunden-Schicht<br>aufgezeichnet. Sie summierten auf 2,2 km und 10’778 Tastenanschläge<br>(23 Anschläge pro Minute)."
-      ,{ background: "white", opacity: 0.98 }]
-
-    tooltips[22] = [ "images/22_Das 3D Print Lab.jpg",
-      "Das 3D Print Lab druckt vor Ort Patientenmodelle und Implantate, was<br>Zeit, Material, Transport und Kosten spart. Bis 2020 entstand regel-<br>mässig Abfall durch ausgediente Prototypen, Test- und Fehldrucke<br>sowie Stützmaterial. Nun werden biologisch abbaubare Materialien<br>(wieder)verwendet; ausgedientes Material wird gesammelt. Durch die<br>Investition in einen spezialisierten Häcksler können aus recyceltem<br>Material neue Modelle hergestellt werden.<br>Für dieses Recyclingsystem hat uns das USB den KVP-Preis Nachhaltig-<br>keit verliehen. "
-      ,{ background: "white", opacity: 0.98 }]
-
-    tooltips[23] = [ "images/23_RadPh.jpg",
-      "PD Grzegorz Bauman, wissenschaftlicher Mitarbeiter der radio-<br>logischen Physik, wurde die Venia docendi erteilt. "
-      ,{ background: "white", opacity: 0.98 }]
+    tooltips[16] = [ "images/18 Haben Radiologinnen.jpg",
+      "Haben Radiolog*innen den Röntgenblick?<br>Mittlerweile sind zahlreiche andere Verfahren etabliert;<br>insofern könnte man beispielsweise auch vom CT-,<br>MRI-, Ultraschall-, PET- und SPECT-Blick sprechen.<br>Am Unispital setzen wir das gesamte Leistungs-<br>spektrum der modernen Radiologie und Nuklear-<br>medizin ein, inklusive der minimalinvasiven und<br>endovaskulären Therapie und der Radionuklid-<br>therapie."
+      ,{ background: "white", opacity: 0.98, width:box_w}]
+	 
 
     return tooltips; //do not remove/change this line
   })(),
@@ -118,17 +94,18 @@ var ddimgtooltip = {
       var text = tipinfo[1] || "";
       var cssStyles = tipinfo[2] || {};
 
-      if (window && window.screen && (window.screen.width <= 576)) {
-        // text = text.replaceAll("<br>", "");
-        text = text.split("<br>").join("");
-        cssStyles.maxWidth = "400px";
-      }
+//MiB: auskommentiert um <br> auch auf dem Smartphone korrekt darzustellen
+      // if (window && window.screen && (window.screen.width <= 576)) {
+        // // text = text.replaceAll("<br>", "");
+        // text = text.split("<br>").join("");
+        // cssStyles.maxWidth = "400px";
+      // }
 
       return $('<div id="' + tipid + '" class="ddimgtooltip" />')
         .html(
           '<div style="text-align:center; margin-top:20px"><img src="' +
             tipinfo[0] +
-            '" /></div>' +
+            '" style="width:100%"/></div>' +
             '<div style="text-align:left; margin-left:5px; margin-right:5px;\
 				margin-top:30px">' +
                 text +

@@ -43,35 +43,35 @@ var ddimgtooltip = {
       ,{ background: "white", opacity: 0.98, width:box_w}]
 
     tooltips[8] = [ "img/08_pub.jpg",
-      "400 Terabyte:<br>Unser Bildarchivierungs- und Informationssystem<br>ist so umfangreich wie 200‘000 Stunden Video<br>in Fernsehqualität."
+      "Ein Überblicksartikel zum Schlaganfall bei Kindern<br>erschien in Nature Reviews Disease Primers.<br>Erstautor ist PD Dr. Peter Sporns, Oberarzt der<br>Neuroradiologie.<br>Thematisiert werden die Ursachen und Therapie-<br>optionen von hämorrhagischen und ischämischen<br>Schlaganfällen, die im Kindesalter eine wichtige<br>Ursache für neurologische Morbidität darstellen.<br>Auch wird die Problematik gezeigt, dass das<br>Krankheitsbild des Schlaganfalls im Kindesalter<br>häufig nicht in die Differentialdiagnose einbezogen<br>wird."
       ,{ background: "white", opacity: 0.98, width:box_w}]
 
     tooltips[9] = [ "img/09_pub.jpg",
-      "Radiologische Bilder zeigen manchmal Überraschen-<br>des. Die Darstellung des Absaugsystems eines<br>speziellen Verbands in der Computertomografie<br>führte bei den Radiolog*innen der muskuloskelettalen<br>Diagnostik zu beispielloser Erheiterung."
+      "Mit dem Peptide Therapeutics Forum fand<br>im August erneut ein herausragendes Symposium<br>am USB statt.<br>Es zeigte wichtige neue Erkenntnisse zur Ent-<br>deckung und Entwicklung von Peptiden als Arznei-<br>mittel.<br>Prof. Melpomeni Fani, Leiterin der radiopharma-<br>zeutischen Chemie, gehörte erneut zu den Organi-<br>sator*innen des Forums, das unter dem Dach<br>der schweizerischen chemischen Gesellschaft<br>(Swiss Chemical Society – SCS) stattfand."
       ,{ background: "white", opacity: 0.98, width:box_w}]
 
     tooltips[10] = [ "img/10_pub.jpg",
-      "Wozu braucht die Radiologie ein Labor für radioaktive Substanzen?<br>Die in der nuklearmedizinischen Diagnostik und Thera-<br>pie eingesetzten Substanzen (Radiopharmazeutika)<br>werden spezifisch für unsere Patient*innen hergestellt.<br>Zu diesem Zweck gibt es am Unispital ein spezielles<br>Labor der radiopharmazeutischen Chemie."
+      "Maurice Pradella, Oberarzt und stv. Leiter der<br>kardialen und thorakalen Radiologie, hat für seine<br>Arbeit zur Darstellung des Blutflusses in der MRT<br>den Trainee Research Prize der Radiological<br>Society of North America (RSNA) erhalten.<br>Er hatte im Rahmen seines Research Fellowship<br>in Chicago (gefördert u. a. von der American Heart<br>Association) Zusammenhänge zwischen einge-<br>schränktem Blutfluss im linken Vorhof und stillen<br>Schlaganfällen gezeigt."
       ,{ background: "white", opacity: 0.98, width:box_w}]
 
     tooltips[11] = [ "img/11_pub.jpg",
-      "In einem Röntgenbild unserer muskuloskelettalen Dia-<br>gnostik zeigten sich charmant geformte Edelstahl-<br>drähte.<br>Sie dienen der Fixierung von Knochenfragmenten."
+      "Dr. Francesco Santini, wissenschaftlicher Mit-<br>arbeiter der radiologischen Physik hat die Arbeits-<br>gruppe MR Safety and Quality der Europäischen<br>Gesellschaft für Radiologie (ESR) gegründet<br>und wurde zum ersten Vorsitzenden ernannt.<br>Santini vertritt derzeit die Europäische Gesellschaft<br>für Magnetresonanz in der Medizin und Biologie<br>(ESMRMB) im Ausschuss für Qualität, Sicherheit<br>und Standards. Sein Ziel ist es, die MR-Sicherheits-<br>praktiken in Europa zu harmonisieren und die<br>Weiterbildung durch ESR-gesponserte Kurse zu<br>verbessern."
       ,{ background: "white", opacity: 0.98, width:box_w}]
 
     tooltips[12] = [ "img/12_pub.jpg",
-      "Fast wie ein Abendstern sah der Blasenstein aus,<br>den die Radiolog*innen der abdominellen Diagnostik<br>in der Computertomografie entdeckten."
+      "Prof. Christoph J. Zech, Abteilungsleiter für inter-<br>ventionelle Radiologie, wurde zum Präsidenten<br>der SSVIR (Schweizer Gesellschaft für Vaskuläre<br>und Interventionelle Radiologie) gewählt."
       ,{ background: "white", opacity: 0.98, width:box_w}]
 
     tooltips[13] = [ "img/13_pub.jpg",
-      "Die Energiekrise wird auch für die Radiologie spürbar<br>sein; die Geräte laufen nicht von allein.<br>26 Familien (à 4 Personen) brauchen so viel Strom<br>wie 1 Magnetresonanztomograf."
+      "Die in Zusammenarbeit mit dem Centre hospitalier<br>universitaire vaudois in Lausanne entstandene<br>Forschungsarbeit von Dr. Rosalba Mansi et al.,<br>wissenschaftliche Mitarbeiterin der radiopharma-<br>zeutischen Chemie, wurde unter 1'834 Präsen-<br>tationen als Highlight-Vortrag für den Jahres-<br>kongress der European Association of Nuclear<br>Medicine (EANM) ausgewählt.<br>Die Arbeit zeigt einen neuen Ansatz zur Verbesse-<br>rung der Bildgebung und Therapie von neuro-<br>endokrinen Tumoren (z. B. Neuroblastom) mit<br>I-123/131-mIBG.<br>Der Kongress wurde von rund 7‘000 Teilnehmen-<br>den besucht."
       ,{ background: "white", opacity: 0.98, width:box_w}]
 
     tooltips[14] = [ "img/14_22_pub.jpg",
-      "1,2 mm beträgt der winzige Durchmesser eines<br>Gefässzugangs der interventionellen Radiologie.<br>Sie ist spezialisiert auf die Diagnostik und Therapie<br>von Gefässkrankheiten, Entzündungen, Tumoren und<br>Schmerzen.<br>Mithilfe kleinster Instrumente werden deren Ursachen<br>gezielt und möglichst schonend behandelt. Die Be-<br>handlung wird daher als minimalinvasive Therapie<br>bezeichnet. Auf diesen Angiografie-Bildern sieht man<br>die hintere Gehirnarterie: vor (links) und nach (rechts)<br>der Entfernung eines Gerinnsels."
+      "Dr. Noemi Schmidt, Leiterin der Mammadiagnostik<br>am USB, hat das European Diploma in Breast<br>Imaging (EDBI) erlangt und sich als anerkannte<br>Expertin für Brustbildgebung ausgewiesen.<br>Das Diplom dient der standardisierten Qualifikation<br>von Expert*innen für die Bereiche Mammografie,<br>Ultraschall, MRT sowie für die Durchführung von<br>Brusteingriffen."
       ,{ background: "white", opacity: 0.98, width:box_w}]
 
     tooltips[15] = [ "img/15_pub.jpg",
-      "Eine unserer acht Abteilungen beschäftigt sich<br>mit radiologischer Physik. Die forschungsorientierte<br>Abteilung entwickelt neue Magnetresonanzverfahren<br>zur Verbesserung der Bildgebung verschiedener<br>Organe, etwa der Lungen.<br>Zudem arbeiten die Strahlenphysiker, welche für die<br>Einhaltung und Optimierung des Strahlenschutzes<br>am Unispital zuständig sind, in der radiologischen<br>Physik."
+      "Fabienne Spinnler, Doktorandin der radiopharma-<br>zeutischen Chemie, erhielt den GSIA-Preis 2022<br>(Gesellschaft der Schweizerischen Industrie-<br>Apotheker*innen) für die beste Masterarbeit im<br>Studiengang Drug Sciences der Universität Basel."
       ,{ background: "white", opacity: 0.98, width:box_w}]
 
     tooltips[16] = [ "img/18 Haben Radiologinnen.jpg",
@@ -83,27 +83,27 @@ var ddimgtooltip = {
       ,{ background: "white", opacity: 0.98, width:box_w}]
 	  
     tooltips[18] = [ "img/03_18_pub.jpg",
-      "Haben Radiolog*innen den Röntgenblick?<br>Mittlerweile sind zahlreiche andere Verfahren etabliert;<br>insofern könnte man beispielsweise auch vom CT-,<br>MRI-, Ultraschall-, PET- und SPECT-Blick sprechen.<br>Am Unispital setzen wir das gesamte Leistungs-<br>spektrum der modernen Radiologie und Nuklear-<br>medizin ein, inklusive der minimalinvasiven und<br>endovaskulären Therapie und der Radionuklid-<br>therapie."
+      "David Winkel, Oberarzt der kardialen und thora-<br>kalen Radiologie, hat das ESUR-Fellowship<br>(European Society of Urogenital Radiology)<br>für seine wissenschaftlichen Leistungen<br>auf dem Gebiet der Detektion und Klassifikation<br>von Prostatakarzinomen mittels MRT sowie<br>für seine Vertretung der urogenitalen Radiologie<br>in Lehre und Forschung erhalten."
       ,{ background: "white", opacity: 0.98, width:box_w}]
     
 	tooltips[19] = [ "img/19_pub.png",
-      "Haben Radiolog*innen den Röntgenblick?<br>Mittlerweile sind zahlreiche andere Verfahren etabliert;<br>insofern könnte man beispielsweise auch vom CT-,<br>MRI-, Ultraschall-, PET- und SPECT-Blick sprechen.<br>Am Unispital setzen wir das gesamte Leistungs-<br>spektrum der modernen Radiologie und Nuklear-<br>medizin ein, inklusive der minimalinvasiven und<br>endovaskulären Therapie und der Radionuklid-<br>therapie."
+      "Maurice Pradella, Oberarzt und stv. Leiter<br>der kardialen und thorakalen Radiologie, hat die<br>Prüfung für die Subspezialisierung in kardio-<br>vaskulärer Radiologie der European Society of<br>Cardiovascular Radiology (ESCR) erfolgreich<br>abgelegt und wurde ins European Board of Cardio-<br>vascular Radiology aufgenommen.<br>Zudem wurde er für seine Arbeit, in der er Zusam-<br>menhänge des Blutflusses im linken Vorhof<br>mit klassischen volumetrischen Parametern unter-<br>sucht hat, von der ESCR mit einem Certificate of<br>Merit ausgezeichnet."
       ,{ background: "white", opacity: 0.98, width:box_w}]
     
 	tooltips[20] = [ "img/20_pub.jpg",
-      "Haben Radiolog*innen den Röntgenblick?<br>Mittlerweile sind zahlreiche andere Verfahren etabliert;<br>insofern könnte man beispielsweise auch vom CT-,<br>MRI-, Ultraschall-, PET- und SPECT-Blick sprechen.<br>Am Unispital setzen wir das gesamte Leistungs-<br>spektrum der modernen Radiologie und Nuklear-<br>medizin ein, inklusive der minimalinvasiven und<br>endovaskulären Therapie und der Radionuklid-<br>therapie."
+      "Wann brauchen wir wieviel Strom?<br>Wir haben analysiert, welche Geräte wann<br>abgeschaltet werden können, um Klimakrise,<br>steigenden Energiekosten und Strommangel<br>besser zu begegnen.<br>Das neue System zeigt, welche Rechner und<br>Drucker wann laufen.<br>Der Stromverbrauch kann über die Wochen<br>hinweg grafisch dargestellt und genau bemessen<br>werden: von ‹Berg› bzw. Wochentag (on) über ‹Tal›<br>bzw. Wochenende und Nacht (off)."
       ,{ background: "white", opacity: 0.98, width:box_w}]
     
 	tooltips[21] = [ "img/21_pub.jpg",
-      "Haben Radiolog*innen den Röntgenblick?<br>Mittlerweile sind zahlreiche andere Verfahren etabliert;<br>insofern könnte man beispielsweise auch vom CT-,<br>MRI-, Ultraschall-, PET- und SPECT-Blick sprechen.<br>Am Unispital setzen wir das gesamte Leistungs-<br>spektrum der modernen Radiologie und Nuklear-<br>medizin ein, inklusive der minimalinvasiven und<br>endovaskulären Therapie und der Radionuklid-<br>therapie."
+      "Tag der Radiologie: Am 8. November, dem Jahres-<br>tag der Entdeckung der Röntgenstrahlen,<br>wurde weltweit der International Day of Radiology<br>gefeiert – auf Initiative der amerikanischen und<br>europäischen Gesellschaft für Radiologie.<br>Auch am USB wurde der Tag gefeiert.<br>Um auf ihn aufmerksam zu machen, haben Radio-<br>logie und Nuklearmedizin Plakate und Flaggen<br>angebracht sowie eine Website mit Informationen<br>entworfen."
       ,{ background: "white", opacity: 0.98, width:box_w}]
 	  
 	tooltips[22] = [ "img/14_22_pub.jpg",
-      "Haben Radiolog*innen den Röntgenblick?<br>Mittlerweile sind zahlreiche andere Verfahren etabliert;<br>insofern könnte man beispielsweise auch vom CT-,<br>MRI-, Ultraschall-, PET- und SPECT-Blick sprechen.<br>Am Unispital setzen wir das gesamte Leistungs-<br>spektrum der modernen Radiologie und Nuklear-<br>medizin ein, inklusive der minimalinvasiven und<br>endovaskulären Therapie und der Radionuklid-<br>therapie."
+      "Dr. Noemi Schmidt, Leiterin der Mammadiagnostik<br>am USB, wurde in das kompetitive Karriere-<br>programm Antelope aufgenommen.<br>Damit fördert die Universität Basel ausgewählte<br>Wissenschaftlerinnen."
       ,{ background: "white", opacity: 0.98, width:box_w}]	  
 
 	tooltips[23] = [ "img/23_pub.jpg",
-      "Haben Radiolog*innen den Röntgenblick?<br>Mittlerweile sind zahlreiche andere Verfahren etabliert;<br>insofern könnte man beispielsweise auch vom CT-,<br>MRI-, Ultraschall-, PET- und SPECT-Blick sprechen.<br>Am Unispital setzen wir das gesamte Leistungs-<br>spektrum der modernen Radiologie und Nuklear-<br>medizin ein, inklusive der minimalinvasiven und<br>endovaskulären Therapie und der Radionuklid-<br>therapie."
+      "Weg vom Papier! Künftig sollen Aufklärungsbögen<br>nicht mehr ausgedruckt, sondern nur noch<br>auf dem iPad bearbeitet werden.<br>Das Pilotprojekt hat bereits in der interventionellen<br>Radiologie und Neuroradiologie begonnen."
       ,{ background: "white", opacity: 0.98, width:box_w}]	  
 	  
 	 
@@ -132,9 +132,9 @@ var ddimgtooltip = {
 
       return $('<div id="' + tipid + '" class="ddimgtooltip" />')
         .html(
-          '<div style="text-align:center; margin-top:20px; margin-left:5px; margin-right:5px"><img src="' +
+          '<div style="text-align:left; margin-top:20px; margin-left:5px; margin-right:5px"><img src="' +
             tipinfo[0] +
-            '" style="width:100%"/></div>' +
+            '" style="width:93%"/></div>' +
             '<div style="text-align:left; margin-left:5px; margin-right:5px;\
 				margin-top:30px">' +
                 text +

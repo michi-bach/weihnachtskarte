@@ -27,14 +27,14 @@ var ddimgtooltip = {
       ,{ background: "white", opacity: 0.98, width:box_w}]
 
     tooltips[4] = [ "img/04_pub.jpg",
-      "4	 	Künstliche Intelligenz zur Diagnostik von Hirn-<br>blutungen und zur Verbesserung des Arbeits-<br>ablaufs in der Notaufnahme: Unsere Neuro-<br>radiolog*innen um Letztautorin Dr. Kristine Black-<br>ham zeigten Genauigkeit und Sensitivität eines<br>Deep-Learning-Algorithmus zur Diagnose intra-<br>kranieller Blutungen in der CT und stellten eine<br>Beschleunigung der Arbeitsabläufe fest –<br>diese war möglich bei sorgfältiger Optimierung.<br>Der Artikel wurde sofort vom radiologischen<br>Fachforum Auntminnie aufgegriffen."
+      "Künstliche Intelligenz zur Diagnostik von Hirn-<br>blutungen und zur Verbesserung des Arbeits-<br>ablaufs in der Notaufnahme: Unsere Neuro-<br>radiolog*innen um Letztautorin Dr. Kristine Black-<br>ham zeigten Genauigkeit und Sensitivität eines<br>Deep-Learning-Algorithmus zur Diagnose intra-<br>kranieller Blutungen in der CT und stellten eine<br>Beschleunigung der Arbeitsabläufe fest –<br>diese war möglich bei sorgfältiger Optimierung.<br>Der Artikel wurde sofort vom radiologischen<br>Fachforum Auntminnie aufgegriffen."
       ,{ background: "white", opacity: 0.98, width:box_w}]
 
     tooltips[5] = [ "img/05_pub.gif",
       "Erneute Auszeichnung unseres Strahlenschutzes:<br>Zum 2. Mal hat die Europäische Gesellschaft für<br>Radiologie die Anwendung des Strahlenschutzes<br>der Radiologie am USB evaluiert und wiederum<br>mit der Höchstnote bewertet. Beurteilt wurden<br>primär die Angemessenheit der durchgeführten<br>Untersuchungen, die Einhaltung der Referenz-<br>werte, die Modernität der technischen Ausstattung<br>und die Einhaltung des Prinzips der Minimaldosis<br>(as low as reasonably achievable).<br>Die Auszeichnung ist von besonderem Wert ange-<br>sichts der steigenden Nachfrage nach medizi-<br>nischer Bildgebung."
       ,{ background: "white", opacity: 0.98, width:box_w}]
 
-    tooltips[6] = [ "img/06_pub.jpg",
+    tooltips[6] = [ "img/06_pub_v2.png",
       "Die radiopharmazeutische Chemie erhielt ein hoch-<br>kompetitives Stipendium (PI: Prof. Melpomeni Fani)<br>der Innosuisse.<br>Mit Fördermitteln in Höhe von CHF 716'600 soll<br>die Behandlung von Karzinomen durch Präzisions-<br>bildgebung der Tumormikroumgebung verbessert<br>werden."
       ,{ background: "white", opacity: 0.98, width:box_w}]
 
@@ -74,13 +74,13 @@ var ddimgtooltip = {
       "Fabienne Spinnler, Doktorandin der radiopharma-<br>zeutischen Chemie, erhielt den GSIA-Preis 2022<br>(Gesellschaft der Schweizerischen Industrie-<br>Apotheker*innen) für die beste Masterarbeit im<br>Studiengang Drug Sciences der Universität Basel."
       ,{ background: "white", opacity: 0.98, width:box_w}]
 
-    tooltips[16] = [ "img/18 Haben Radiologinnen.jpg",
-      "Haben Radiolog*innen den Röntgenblick?<br>Mittlerweile sind zahlreiche andere Verfahren etabliert;<br>insofern könnte man beispielsweise auch vom CT-,<br>MRI-, Ultraschall-, PET- und SPECT-Blick sprechen.<br>Am Unispital setzen wir das gesamte Leistungs-<br>spektrum der modernen Radiologie und Nuklear-<br>medizin ein, inklusive der minimalinvasiven und<br>endovaskulären Therapie und der Radionuklid-<br>therapie."
-      ,{ background: "white", opacity: 0.98, width:box_w}]
+    // tooltips[16] = [ "img/18 Haben Radiologinnen.jpg",
+      // "Haben Radiolog*innen den Röntgenblick?<br>Mittlerweile sind zahlreiche andere Verfahren etabliert;<br>insofern könnte man beispielsweise auch vom CT-,<br>MRI-, Ultraschall-, PET- und SPECT-Blick sprechen.<br>Am Unispital setzen wir das gesamte Leistungs-<br>spektrum der modernen Radiologie und Nuklear-<br>medizin ein, inklusive der minimalinvasiven und<br>endovaskulären Therapie und der Radionuklid-<br>therapie."
+      // ,{ background: "white", opacity: 0.98, width:box_w}]
 	
-	tooltips[17] = [ "img/18 Haben Radiologinnen.jpg",
-      "Haben Radiolog*innen den Röntgenblick?<br>Mittlerweile sind zahlreiche andere Verfahren etabliert;<br>insofern könnte man beispielsweise auch vom CT-,<br>MRI-, Ultraschall-, PET- und SPECT-Blick sprechen.<br>Am Unispital setzen wir das gesamte Leistungs-<br>spektrum der modernen Radiologie und Nuklear-<br>medizin ein, inklusive der minimalinvasiven und<br>endovaskulären Therapie und der Radionuklid-<br>therapie."
-      ,{ background: "white", opacity: 0.98, width:box_w}]
+	// tooltips[17] = [ "img/18 Haben Radiologinnen.jpg",
+      // "Haben Radiolog*innen den Röntgenblick?<br>Mittlerweile sind zahlreiche andere Verfahren etabliert;<br>insofern könnte man beispielsweise auch vom CT-,<br>MRI-, Ultraschall-, PET- und SPECT-Blick sprechen.<br>Am Unispital setzen wir das gesamte Leistungs-<br>spektrum der modernen Radiologie und Nuklear-<br>medizin ein, inklusive der minimalinvasiven und<br>endovaskulären Therapie und der Radionuklid-<br>therapie."
+      // ,{ background: "white", opacity: 0.98, width:box_w}]
 	  
     tooltips[18] = [ "img/03_18_pub.jpg",
       "David Winkel, Oberarzt der kardialen und thora-<br>kalen Radiologie, hat das ESUR-Fellowship<br>(European Society of Urogenital Radiology)<br>für seine wissenschaftlichen Leistungen<br>auf dem Gebiet der Detektion und Klassifikation<br>von Prostatakarzinomen mittels MRT sowie<br>für seine Vertretung der urogenitalen Radiologie<br>in Lehre und Forschung erhalten."

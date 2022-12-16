@@ -26,7 +26,7 @@ var ddimgtooltip = {
       "Der Young Researcher Award des European<br>Journal of Radiology wurde PD Dr. David Winkel,<br>stv. Oberarzt der kardialen und thorakalen Dia-<br>gnostik, für seine Co-Autorschaft einer Publikation<br>zur Genauigkeit eines Deep-Learning-Algorithmus<br>in der Krebsdiagnostik verliehen.<br>Die Wissenschaftler zeigten, dass die diagnos-<br>tische Genauigkeit eines Deep-Learning-Algo-<br>rithmus zur Klassifikation von Prostatakarzinom-<br>Läsionen in der MRT so gut ist wie in klinischen<br>Befunden.<br>Diese Erkenntnis könnte ein weiterer Schritt in<br>Richtung der klinischen Implementierung von<br>Deep-Learning-Algorithmen sein."
       ,{ background: "white", opacity: 0.98, width:box_w}]
 
-    tooltips[4] = [ "img/04_pub.jpg",
+    tooltips[4] = [ "img/04_pub_v2.jpg",
       "Künstliche Intelligenz zur Diagnostik von Hirn-<br>blutungen und zur Verbesserung des Arbeits-<br>ablaufs in der Notaufnahme: Unsere Neuro-<br>radiolog*innen um Letztautorin Dr. Kristine Black-<br>ham zeigten Genauigkeit und Sensitivität eines<br>Deep-Learning-Algorithmus zur Diagnose intra-<br>kranieller Blutungen in der CT und stellten eine<br>Beschleunigung der Arbeitsabläufe fest –<br>diese war möglich bei sorgfältiger Optimierung.<br>Der Artikel wurde sofort vom radiologischen<br>Fachforum Auntminnie aufgegriffen."
       ,{ background: "white", opacity: 0.98, width:box_w}]
 
@@ -66,7 +66,7 @@ var ddimgtooltip = {
       "Die in Zusammenarbeit mit dem Centre hospitalier<br>universitaire vaudois in Lausanne entstandene<br>Forschungsarbeit von Dr. Rosalba Mansi et al.,<br>wissenschaftliche Mitarbeiterin der radiopharma-<br>zeutischen Chemie, wurde unter 1'834 Präsen-<br>tationen als Highlight-Vortrag für den Jahres-<br>kongress der European Association of Nuclear<br>Medicine (EANM) ausgewählt.<br>Die Arbeit zeigt einen neuen Ansatz zur Verbesse-<br>rung der Bildgebung und Therapie von neuro-<br>endokrinen Tumoren (z. B. Neuroblastom) mit<br>I-123/131-mIBG.<br>Der Kongress wurde von rund 7‘000 Teilnehmen-<br>den besucht."
       ,{ background: "white", opacity: 0.98, width:box_w}]
 
-    tooltips[14] = [ "img/14_22_pub.jpg",
+    tooltips[14] = [ "img/14_22_pub_v2.jpg",
       "Dr. Noemi Schmidt, Leiterin der Mammadiagnostik<br>am USB, hat das European Diploma in Breast<br>Imaging (EDBI) erlangt und sich als anerkannte<br>Expertin für Brustbildgebung ausgewiesen.<br>Das Diplom dient der standardisierten Qualifikation<br>von Expert*innen für die Bereiche Mammografie,<br>Ultraschall, MRT sowie für die Durchführung von<br>Brusteingriffen."
       ,{ background: "white", opacity: 0.98, width:box_w}]
 
@@ -98,7 +98,7 @@ var ddimgtooltip = {
       "Tag der Radiologie: Am 8. November, dem Jahres-<br>tag der Entdeckung der Röntgenstrahlen,<br>wurde weltweit der International Day of Radiology<br>gefeiert – auf Initiative der amerikanischen und<br>europäischen Gesellschaft für Radiologie.<br>Auch am USB wurde der Tag gefeiert.<br>Um auf ihn aufmerksam zu machen, haben Radio-<br>logie und Nuklearmedizin Plakate und Flaggen<br>angebracht sowie eine Website mit Informationen<br>entworfen."
       ,{ background: "white", opacity: 0.98, width:box_w}]
 	  
-	tooltips[22] = [ "img/14_22_pub.jpg",
+	tooltips[22] = [ "img/14_22_pub_v2.jpg",
       "Dr. Noemi Schmidt, Leiterin der Mammadiagnostik<br>am USB, wurde in das kompetitive Karriere-<br>programm Antelope aufgenommen.<br>Damit fördert die Universität Basel ausgewählte<br>Wissenschaftlerinnen."
       ,{ background: "white", opacity: 0.98, width:box_w}]	  
 

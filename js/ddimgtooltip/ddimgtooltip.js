@@ -54,7 +54,7 @@ var ddimgtooltip = {
       "Maurice Pradella, Oberarzt und stv. Leiter der<br>kardialen und thorakalen Radiologie, hat für seine<br>Arbeit zur Darstellung des Blutflusses in der MRT<br>den Trainee Research Prize der Radiological<br>Society of North America (RSNA) erhalten.<br>Er hatte im Rahmen seines Research Fellowship<br>in Chicago (gefördert u. a. von der American Heart<br>Association) Zusammenhänge zwischen einge-<br>schränktem Blutfluss im linken Vorhof und stillen<br>Schlaganfällen gezeigt."
       ,{ background: "white", opacity: 0.98, width:box_w}]
 
-    tooltips[11] = [ "img/11_pub.jpg",
+    tooltips[11] = [ "img/11_pub.png",
       "Dr. Francesco Santini, wissenschaftlicher Mit-<br>arbeiter der radiologischen Physik hat die Arbeits-<br>gruppe MR Safety and Quality der Europäischen<br>Gesellschaft für Radiologie (ESR) gegründet<br>und wurde zum ersten Vorsitzenden ernannt.<br>Santini vertritt derzeit die Europäische Gesellschaft<br>für Magnetresonanz in der Medizin und Biologie<br>(ESMRMB) im Ausschuss für Qualität, Sicherheit<br>und Standards. Sein Ziel ist es, die MR-Sicherheits-<br>praktiken in Europa zu harmonisieren und die<br>Weiterbildung durch ESR-gesponserte Kurse zu<br>verbessern."
       ,{ background: "white", opacity: 0.98, width:box_w}]
 

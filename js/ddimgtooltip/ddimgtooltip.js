@@ -8,7 +8,7 @@ var ddimgtooltip = {
   tiparray: (function () {
     var tooltips = []
 	//define the width of the tooltip-boxes
-	let box_w = "405px"
+	let box_w = "290px"
     
 	//define each tooltip below: tooltip[inc]=['path_to_image', 'optional desc', optional_CSS_object]
     //For desc parameter, backslash any special characters inside your text such as apotrophes ('). Example: "I\'m the king of the world"
@@ -132,11 +132,11 @@ var ddimgtooltip = {
 
       return $('<div id="' + tipid + '" class="ddimgtooltip" />')
         .html(
-          '<div style="text-align:left; margin-top:20px; margin-left:5px; margin-right:5px"><img src="' +
+          '<div style="text-align:left;"><img src="' +
             tipinfo[0] +
-            '" style="width:93%"/></div>' +
+            '" style="text-align:center; width:100%"/></div>' +
             '<div style="text-align:left; margin-left:5px; margin-right:5px;\
-				margin-top:30px">' +
+				margin-top:16px">' +
                 text +
                 "</div>"
         )

@@ -74,9 +74,9 @@ var ddimgtooltip = {
       "Fabienne Spinnler, Doktorandin der radiopharma-<br>zeutischen Chemie, erhielt den GSIA-Preis 2022<br>(Gesellschaft der Schweizerischen Industrie-<br>Apotheker*innen) für die beste Masterarbeit im<br>Studiengang Drug Sciences der Universität Basel."
       ,{ background: "white", opacity: 0.98, width:box_w}]
 
-    // tooltips[16] = [ "img/18 Haben Radiologinnen.jpg",
-      // "Haben Radiolog*innen den Röntgenblick?<br>Mittlerweile sind zahlreiche andere Verfahren etabliert;<br>insofern könnte man beispielsweise auch vom CT-,<br>MRI-, Ultraschall-, PET- und SPECT-Blick sprechen.<br>Am Unispital setzen wir das gesamte Leistungs-<br>spektrum der modernen Radiologie und Nuklear-<br>medizin ein, inklusive der minimalinvasiven und<br>endovaskulären Therapie und der Radionuklid-<br>therapie."
-      // ,{ background: "white", opacity: 0.98, width:box_w}]
+    tooltips[16] = [ "img/16_pub.jpg",
+      "Dr. Jacopo Millul, Postdoc der radiopharmazeu-<br>tischen Chemie, erhielt einen Forschungsbeitrag<br>des Forschungsfonds für Nachwuchsforschende<br>der Universität Basel."
+      ,{ background: "white", opacity: 0.98, width:box_w}]
 	
 	// tooltips[17] = [ "img/18 Haben Radiologinnen.jpg",
       // "Haben Radiolog*innen den Röntgenblick?<br>Mittlerweile sind zahlreiche andere Verfahren etabliert;<br>insofern könnte man beispielsweise auch vom CT-,<br>MRI-, Ultraschall-, PET- und SPECT-Blick sprechen.<br>Am Unispital setzen wir das gesamte Leistungs-<br>spektrum der modernen Radiologie und Nuklear-<br>medizin ein, inklusive der minimalinvasiven und<br>endovaskulären Therapie und der Radionuklid-<br>therapie."

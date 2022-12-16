@@ -22,7 +22,7 @@ var ddimgtooltip = {
       "Beeinflusst das Wetter die Entstehung von Poly-<br>traumata und führt zu mehr Ganzkörper-CTs?<br>Anhand der Daten zu Wetter und CTs hat das<br>Forschungsteam um Dr. Martin Segeroth,<br>Assistenzarzt der Radiologie, jene Wetter-<br>bedingungen ermittelt, die mit einer Erhöhung der<br>Ganzkörper-CTs durch Polytrauma-Patient*innen<br>in Zusammenhang stehen. Demnach korreliert<br>heisseres Wetter mit mehr Sonnenschein bzw.<br>geringerer Bewölkung und schwachem Wind mit<br>einer höheren Anzahl von Polytrauma-CTs.<br>Zudem wurden von April bis September mehr<br>Polytrauma-CTs durchgeführt. Die Ergebnisse,<br>welche die Planung der Ressourcen vereinfachen<br>könnten, wurden an der Jahrestagung der Radio-<br>logical Society of North America (RSNA) vorgestellt<br>und sogleich vom radiologischen Fachforum Aunt-<br>minnie aufgegriffen."
       ,{ background: "white", opacity: 0.98, width:box_w}]
 
-    tooltips[3] = [ "img/03_18_pub.jpg",
+    tooltips[3] = [ "img/03_18_pub_v2.jpg",
       "Der Young Researcher Award des European<br>Journal of Radiology wurde PD Dr. David Winkel,<br>stv. Oberarzt der kardialen und thorakalen Dia-<br>gnostik, für seine Co-Autorschaft einer Publikation<br>zur Genauigkeit eines Deep-Learning-Algorithmus<br>in der Krebsdiagnostik verliehen.<br>Die Wissenschaftler zeigten, dass die diagnos-<br>tische Genauigkeit eines Deep-Learning-Algo-<br>rithmus zur Klassifikation von Prostatakarzinom-<br>Läsionen in der MRT so gut ist wie in klinischen<br>Befunden.<br>Diese Erkenntnis könnte ein weiterer Schritt in<br>Richtung der klinischen Implementierung von<br>Deep-Learning-Algorithmen sein."
       ,{ background: "white", opacity: 0.98, width:box_w}]
 
@@ -58,7 +58,7 @@ var ddimgtooltip = {
       "Dr. Francesco Santini, wissenschaftlicher Mit-<br>arbeiter der radiologischen Physik hat die Arbeits-<br>gruppe MR Safety and Quality der Europäischen<br>Gesellschaft für Radiologie (ESR) gegründet<br>und wurde zum ersten Vorsitzenden ernannt.<br>Santini vertritt derzeit die Europäische Gesellschaft<br>für Magnetresonanz in der Medizin und Biologie<br>(ESMRMB) im Ausschuss für Qualität, Sicherheit<br>und Standards. Sein Ziel ist es, die MR-Sicherheits-<br>praktiken in Europa zu harmonisieren und die<br>Weiterbildung durch ESR-gesponserte Kurse zu<br>verbessern."
       ,{ background: "white", opacity: 0.98, width:box_w}]
 
-    tooltips[12] = [ "img/12_pub.jpg",
+    tooltips[12] = [ "img/12_pub_v2.jpg",
       "Prof. Christoph J. Zech, Abteilungsleiter für inter-<br>ventionelle Radiologie, wurde zum Präsidenten<br>der SSVIR (Schweizer Gesellschaft für Vaskuläre<br>und Interventionelle Radiologie) gewählt."
       ,{ background: "white", opacity: 0.98, width:box_w}]
 
@@ -82,7 +82,7 @@ var ddimgtooltip = {
       // "Haben Radiolog*innen den Röntgenblick?<br>Mittlerweile sind zahlreiche andere Verfahren etabliert;<br>insofern könnte man beispielsweise auch vom CT-,<br>MRI-, Ultraschall-, PET- und SPECT-Blick sprechen.<br>Am Unispital setzen wir das gesamte Leistungs-<br>spektrum der modernen Radiologie und Nuklear-<br>medizin ein, inklusive der minimalinvasiven und<br>endovaskulären Therapie und der Radionuklid-<br>therapie."
       // ,{ background: "white", opacity: 0.98, width:box_w}]
 	  
-    tooltips[18] = [ "img/03_18_pub.jpg",
+    tooltips[18] = [ "img/03_18_pub_v2.jpg",
       "David Winkel, Oberarzt der kardialen und thora-<br>kalen Radiologie, hat das ESUR-Fellowship<br>(European Society of Urogenital Radiology)<br>für seine wissenschaftlichen Leistungen<br>auf dem Gebiet der Detektion und Klassifikation<br>von Prostatakarzinomen mittels MRT sowie<br>für seine Vertretung der urogenitalen Radiologie<br>in Lehre und Forschung erhalten."
       ,{ background: "white", opacity: 0.98, width:box_w}]
     

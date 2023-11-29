@@ -31,7 +31,7 @@ var ddimgtooltip = {
       ,{ background: "white", opacity: 0.98, width:box_w}]
 
     tooltips[5] = [ "img/05_pub.jpg",
-      "Schaltet auch das CT aus! Unsere Wissenschaftler-<br>*innen haben am europäischen Radiologiekongress<br>die Ergebnisse ihrer Massnahmen zum Umgang mit<br>Energie in Radiologie und Nuklearmedizin – den<br>energieintensivsten Fachbereichen eines Spitals –<br>präsentiert.<br>Sie führten zu Einsparungen von jährlich 70’000<br>Kilowattstunden Strom – mehr als 9,3 Tonnen CO2-<br>Emissionen bzw. CHF 56'000.<br>Das radiologische Fachforum Auntminnie und der<br>USB-Nachhaltigkeitsbericht nahmen die Resultate<br>auf; das USB verlieh uns den KVP-Preis (Kategorie<br>Nachhaltigkeit)."
+      "Schaltet auch das CT aus! Unsere Wissenschaftler-<br>*innen haben am europäischen Radiologiekongress<br>die Ergebnisse ihrer Massnahmen zum Umgang mit<br>Energie in Radiologie und Nuklearmedizin – den<br>energieintensivsten Fachbereichen eines Spitals –<br>präsentiert.<br>Sie führten zu Einsparungen von jährlich 70’000<br>Kilowattstunden Strom – mehr als 9,3 Tonnen CO<sub>2</sub>-<br>Emissionen bzw. CHF 56'000.<br>Das radiologische Fachforum Auntminnie und der<br>USB-Nachhaltigkeitsbericht nahmen die Resultate<br>auf; das USB verlieh uns den KVP-Preis (Kategorie<br>Nachhaltigkeit)."
       ,{ background: "white", opacity: 0.98, width:box_w}]
 
     tooltips[6] = [ "img/06_pub.jpg",
@@ -59,7 +59,7 @@ var ddimgtooltip = {
       ,{ background: "white", opacity: 0.98, width:box_w}]
 
     tooltips[12] = [ "img/12_pub.jpg",
-      "Gleich zwei Projekte der Radiologie erhielten einen<br>der vier KVP-Preise (kontinuierlicher Verbesse-<br>rungsprozess).<br>Damit würdigt das USB jedes Jahr Projekte, die zur<br>Verbesserung des klinischen Alltags – für Patient*-<br>innen und Mitarbeitende – beitragen.<br>Ausgezeichnet wurde ein Projekt, das zur Erhöhung<br>der Bildqualität von Mammografien und damit zur<br>Patientensicherheit beiträgt sowie eines, das zu<br>Einsparungen von 72’000 kWh Strom führt (dies<br>entspricht CHF 56'000 und 9,3 Tonnen CO2-Emi-<br>ssionen)."
+      "Gleich zwei Projekte der Radiologie erhielten einen<br>der vier KVP-Preise (kontinuierlicher Verbesse-<br>rungsprozess).<br>Damit würdigt das USB jedes Jahr Projekte, die zur<br>Verbesserung des klinischen Alltags – für Patient*-<br>innen und Mitarbeitende – beitragen.<br>Ausgezeichnet wurde ein Projekt, das zur Erhöhung<br>der Bildqualität von Mammografien und damit zur<br>Patientensicherheit beiträgt sowie eines, das zu<br>Einsparungen von 72’000 kWh Strom führt (dies<br>entspricht CHF 56'000 und 9,3 Tonnen CO<sub>2</sub>-Emi-<br>ssionen)."
       ,{ background: "white", opacity: 0.98, width:box_w}]
 
     tooltips[13] = [ "img/13_pub.jpg",
